@@ -11,5 +11,7 @@ namespace _2526_2221050613_BaiThi.Data
         {
         }
         public DbSet<TinhThanh> TinhThanhs { get; set; }
+        public DbSet<PhuongXa> PhuongXas { get; set; }
+
     }
 }
